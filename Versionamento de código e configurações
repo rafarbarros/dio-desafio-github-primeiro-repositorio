@@ -14,7 +14,8 @@ GitHub é uma plataforma de `hospedagem` de códigos para controle de versão, u
 
 ## Comandos básicos do Git e suas funcionalidades
 
-- Ctrl + L : Gera varios espaços vazios e rola a barra de rolagem, de forma que fique o endereço de trabalho fique no topo da tela do terminal;
+- ls : Lista todos os arquivos do diretório em que se está trabalhando.
+- Ctrl + L : Gera vários espaços vazios e rola a barra de rolagem, de forma que o endereço de trabalho fique no topo da tela do terminal;
 - clear: Limpa o terminal totalmente.
 - git config: Apresenta os comandos e funções para utilizar na plataforma.
 - git clone : Clona um repositório Git existente para um novo diretório (pasta) local.
@@ -40,7 +41,7 @@ Se a plataforma não retornar nenhum erro, as informações inseridas foram cada
 `git config user.email`
 - Retorna o email cadastrado
 
-Essas informações cadastradas, serão utilizadas em commits realizados futuramente, caso as informações sejam alteradas (nome de usuário e email), os commits anteriores a essa mudança, essas informações não serão alteradas, somente os commits após a alteração.
+Essas informações cadastradas, serão utilizadas em commits realizados futuramente, caso as informações sejam alteradas (nome de usuário e email), os commits anteriores a essa mudança não serão alterados, somente os commits após a alteração.
 
 # Definindo e consultando a Branch
 
@@ -54,7 +55,7 @@ Essas informações cadastradas, serão utilizadas em commits realizados futuram
 
 # Autenticação via Token de repositórios privados
 
-Anteriormente era possível realizar autenticações de repositórios privados entre as plataformas Git/GitHub, utilizando o email e senha cadastrados no, mas desde 13 de agosto de 2021, essa forma de autenticação foi removida, sendo necessário a criação de chaves token para autenticar uma alteração.
+Anteriormente era possível realizar autenticações de repositórios privados entre as plataformas Git/GitHub, utilizando o email e senha cadastrada, mas desde 13 de agosto de 2021, essa forma de autenticação foi removida, sendo necessário a criação de chaves token para autenticar uma alteração.
 
 A autenticação via token, se dá quando desejamos realizar uma alteração em algum repositório privado, esse tipo de repositório é criado quando o intuito é não disponibilizar seus projetos na plataforma de forma que  outros usuários não vejam esse repositório no seu perfil, ou quando o projeto deve ficar restrito somente a equipe envolvida no desenvolvimento.
 
@@ -75,16 +76,16 @@ A autenticação via token, se dá quando desejamos realizar uma alteração em 
 
 Com a chave token criada, é possivel copiá-la e utilizar essa chave para autenticação de commits realizados no Git.
 
-> *__Por motivos de segurança, após sair da tela onde se encontra a chave token criada, a mesma não poderá mais ser visualizada, recomenda-se a utilização imediata__*.
+> *__Por motivos de segurança, após sair da tela onde se encontra a chave criada, a mesma não poderá mais ser visualizada, recomenda-se a utilização imediata__*.
 
 # Utilizando chave Token para autenticação
 
 Com o terminal Git aberto no caminho aonde se deseja clonar o repositório, segue os comandos.
 
-1. `git clone` + URL do repositório que se deseja clonar + Enter. Está URL está disponivel na página principal do repositório, clicando em `<> Code`, seleciona-se a aba `HTTPS` e copia-se a URL logo abaixo;
+1. `git clone` + URL do repositório que se deseja clonar + Enter. Esta URL está disponivel na página principal do repositório, clicando em `<> Code`, seleciona-se a aba `HTTPS` e copia-se a URL logo abaixo;
 2. Se for o caso de abrir uma caixa de diálogo `Git for Windows`, apenas cancele e volte ao terminal;
 3. Informe o nome de usuário cadastrado no GitHub;
-4. Nesse passo, será solicitado uma senha, aqui deve ser inserido a chave token gerada. No terminal, após inserida a chave, por motivos de segurança, ela não é exibida. Após inserir a chave confirme com a tecla enter;
+4. Nesse passo, será solicitado uma senha, aqui deve ser inserido a chave token gerada. No terminal, após inserida a chave, por motivos de segurança ela não é exibida. Após inserir a chave confirme com a tecla enter;
 5. Se não houver nenhum erro, a clonagem deve prosseguir e ser validada;
 
 Caso o projeto que esteja trabalhando, exija muitos procedimentos de autenticação, há a opção de salvar a chave token na própria maquina do usuário, utilizando o terminal Git, não sendo necessário criar novas chaves a todo momento.
@@ -99,10 +100,10 @@ Dessa forma, sempre que realizar uma operação que precisar de autenticação, 
 
 # Autenticando via chave SSH
 
-Uma outra possibilidade de autenticação de aolicitações no Git é utilizando uma chave do tipo SSH ( Secure Shell). 
+Uma outra possibilidade de autenticação de solicitações no Git é utilizando uma chave do tipo SSH ( Secure Shell). 
 Este tipo de chave, `trabalha com um par de chaves (pública e privada)`, utiliza um protocolo de rede que possibilita que seu computador local e o servidor remoto, no caso o GitHub, se conectem de forma segura e criptografada por meio da internet.
 
->Antes de criar esse tipo de chave, podemos verificar se há alguma chave configurada, podendo ser ela, pública ou privada. 
+>Antes de criar esse tipo de chave, podemos verificar se há alguma chave configurada. 
 
 1. Com sua conta no GitHub devidamente logada, abrir a aba no canto superior onde consta sua foto de perfil e abrir a opção `settings`;
 2. Na coluna a esquerda na aba `Access`, selecionar a opção `SSH and GPG keys`;
