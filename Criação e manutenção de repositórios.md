@@ -20,9 +20,26 @@ Para iniciar e criarmos um `commit` no Git, segue os passos.
 
 - `git`, comando padrão Git;
 - `add`, adiciona o arquivo para commit;
-- ` * `, indica que deve ser selecionado todos os arquivos da pasta para commit;
+- ` * `, todos os arquivos da pasta serão preparados para commit;
+
+>Caso não seja necessário adicionar todos os arquivos para comitar, deve-se apenas adicionar o nome do arquivo que se deseja.
+Exemplo:
+
+>`git add desafio-projeto`
 
 8. `git commit -m " "` entre estas aspas duplas deve ser inserido uma mensagem curta, para que, quando acessarmos o repositório, saibamos doque se trata.
+9. `git status`, monitora os status dos arquivos, se houve alguma alteração ou se algum arquivo foi adicionado ou removido da pasta de trabalho.
+10. `mkdir novaPasta`, comando `mkdir` cria uma pasta.
+11. `novaPasta`, é o nome dado a essa pasta.
+
+    > Atenção ao dar o nome das pastas, se após o comando mkdir, o comando for este:
+    
+    `mkdir nova pasta`, será criado uma pasta com o nome de `nova` e outra pasta com o nome de `pasta`, devido ao espaçamento inserido entre as palavras ``nova`` e ``pasta``.
+
+    >Para inserir uma única pasta, nesse exemplo o comando deverá ficar dessa forma:
+    
+    `mkdir novaPasta`, desse forma será criado apenas uma pasta com o nome de `novaPasta`
+12. `mv nova /pasta/`, comando utilizado para mover o diretório `nova` para o diretório `pasta` 
 
 
 
