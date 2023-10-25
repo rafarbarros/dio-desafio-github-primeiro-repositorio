@@ -12,17 +12,6 @@ Desenvolvido em 2008 por 4 desenvolvedores, sendo eles, Chris Wanstrath, J. Hyet
 
 GitHub é uma plataforma de `hospedagem` de códigos para controle de versão, utilzando o git como ferramenta. Proporciona um ambiente colaborativo, ja que pode-se acessar códigos de diversos desenvolvedores, desde que, este código seja commitado (commit) de forma pública, é possível colaborar com o desenvolvedor sugerindo melhorias para o código, ou receber melhorias.
 
-## Comandos básicos do Git e suas funcionalidades
-
-- ls : Lista todos os arquivos do diretório em que se está trabalhando.
-- Ctrl + L : Gera vários espaços vazios e rola a barra de rolagem, de forma que o endereço de trabalho fique no topo da tela do terminal;
-- clear: Limpa o terminal totalmente.
-- git config: Apresenta os comandos e funções para utilizar na plataforma.
-- git clone : Clona um repositório Git existente para um novo diretório (pasta) local.
-- git commit : Registra alterações que vão ser preparadas de um ambiente local para o repositório Git, permitindo uma breve descrição das mudanças.
-- git pull : Busca e mescla alterações do repositório remoto para o repositório local.
-- git push : "Empurra" as alterações do repositório local para o remoto.
-
 # Configurando o Git
 
 Com o terminal do GitBash aberto ( link na aba de Links Úteis), para o primeiro acesso é necessário fazer as configurações iniciais, cadastrando um nome de usuário e e-mail que foi utilizado para cadastro no GitHub. Para isso, utilizamos os comandos abaixo.
