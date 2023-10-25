@@ -1,8 +1,8 @@
-## Oque é versionamento de Código
+# Oque é versionamento de Código
 
 O versionamento de código é usado durante a construção de uma aplicação tecnológica, onde novas correções e implementações são criadas diariamente. Por isso é necessário trabalhar com o auxílio de ferramentas que ajudam no registro dessas modificações, indicando quem fez a mudança, quando e o que foi alterado.
 
-## Oque é o Git
+# Oque é o Git
 
 `O Git é um sistema de controle de versão DISTRIBUÍDO`, sendo um dos sistemas de versionamento mais utilizados atualmente, dado o fato de ser uma plataforma gratuita e open source, ou seja, de código aberto, onde o código-fonte é disponibilizado gratuitamente para consulta, examinação, modificação e redistribuição. Os produtos incluem permissão para usar o código-fonte, documentos de design ou conteúdo do produto.
 
