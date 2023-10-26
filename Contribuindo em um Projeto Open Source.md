@@ -1,8 +1,8 @@
-# Oque é um projeto open source
+# Oque é um projeto open source.
 
-	É um projeto de código aberto, livre para ser utilizadom modificado e distribuído.
+É um projeto de código aberto, livre para ser utilizadom modificado e distribuído.
 
-	Exemplos:
+Exemplos:
 
-	- 'Linux', sob a licença GNU General Public Licence (GPL);
-	- 'Roadmaps DIO, sob a licença MIT License (MIT)'
+- `Linux`, sob a licença GNU General Public Licence (GPL);
+- `Roadmaps` DIO, sob a licença MIT License (MIT).
