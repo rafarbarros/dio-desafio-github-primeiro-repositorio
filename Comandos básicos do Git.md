@@ -24,4 +24,4 @@
 
 - git clone : Clona um repositório Git existente para um novo diretório (pasta) local;
 
-- git remote add origin `https://github.com/nomeusario/nomerepositorio`: Indica para o repositório remoto padrão (origin), onde serão realizadas as alterações do repositório remoto.
+- git remote add origin `https://github.com/nomeusario/nomerepositorio`: Indica para o repositório remoto padrão (origin), onde serão adicionadas as alterações do repositório remoto.
